@@ -49,8 +49,7 @@ Este projeto é um **card de apresentação pessoal** desenvolvido com **React**
 
 - Exibição de foto de perfil.
 - Apresentação do nome.
-- Breve descrição pessoal.
-- Design responsivo para diferentes tamanhos de tela.
+- Breve descrição pessoal
 
 ## 📌 Melhorias Futuras
 
