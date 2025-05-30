@@ -1,9 +1,9 @@
 type descriptionProps = {
-    description: string;
+   description: string;
 }
 
-export function Description({ description }: descriptionProps) {
+export function Description({description }:descriptionProps) {
     return(
-         <h1 className='text-sm text-gray-400 font-light font-serif '>{description}</h1>
+         <h1 className='text-sm text-gray-400 font-light font-serif italic '>{description }</h1>
     )
 }

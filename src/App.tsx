@@ -1,8 +1,10 @@
 import banner from './assets/banner.svg'
 import bg from './assets/bg.svg'
+
 import { Avatar } from './components/avatar'
 import { Description } from './components/description'
 import { Skill } from './components/skill'
+import { SubTitle } from './components/subTitle'
 import { Title } from './components/text'
 
 export function App() {
@@ -14,10 +16,10 @@ export function App() {
           <Avatar />
           <div className='flex flex-col items-center justify-center mt-4'>
             <Title text='Bruno Gomes' />
-           <Description description='Desenvolvedor Front-end' />
+            <SubTitle subTitle='Desenvolvedor Front-end' />
           </div>
           <div className='flex flex-col items-center justify-center mt-8 px-6'>
-            <span className=' text-gray-400 text-sm text-center font-serif'>Cria interfaces bonitas, rápidas e intuitivas.</span>
+            <Description description='Cria interfaces bonitas, rápidas e intuitivas.'/>
           </div>
           <div className='flex items-center justify-center mt-8 gap-4'>
             <Skill />
