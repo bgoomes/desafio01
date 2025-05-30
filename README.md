@@ -13,7 +13,7 @@ Este projeto é um **card de apresentação pessoal** desenvolvido com **React**
 
 ## 📸 Demonstração
 
-![Demonstração do Card](/card.png)
+![Demonstração do Card](./public/card.png)
 
 ## 🔧 Como Executar o Projeto
 
