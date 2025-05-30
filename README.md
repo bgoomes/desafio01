@@ -1,54 +1,63 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💼 Desafio 01 da mentoria do Zero ao Dev Junior
 
-Currently, two official plugins are available:
+Este projeto é um **card de apresentação pessoal** desenvolvido com **React**, **TypeScript** e **Vite**. Ele exibe uma foto, nome e uma breve descrição, sendo ideal para portfólios, sites pessoais ou apresentações online.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com) (ou a biblioteca de estilos que você preferir)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📸 Demonstração
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+![Demonstração do Card](/card.png)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🔧 Como Executar o Projeto
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/bgoomes/desafio01.git
+   ```
+
+2. **Navegue até o diretório do projeto:**
+
+   ```bash
+   cd desafio01
+   ```
+
+3. **Instale as dependências:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Inicie o servidor de desenvolvimento:**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Acesse o projeto no navegador:**
+
+   Abra [http://localhost:5173](http://localhost:5173) para visualizar o card.
+
+## 🎯 Funcionalidades
+
+- Exibição de foto de perfil.
+- Apresentação do nome.
+- Breve descrição pessoal.
+- Design responsivo para diferentes tamanhos de tela.
+
+## 📌 Melhorias Futuras
+
+- Adicionar links para redes sociais.
+- Implementar animações nos elementos do card.
+- Criar uma versão interativa com mais informações ao clicar.
+
+## 📝 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).

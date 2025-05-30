@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
-/* @theme {
-    fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        mono: ['Onest', 'sans-serif'],
-    }
-} */
+@theme {
+    --font-sans: 'Inter', sans-serif;
+    --font-serif: 'Onest', serif;
+}
